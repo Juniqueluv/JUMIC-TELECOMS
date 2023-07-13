@@ -11,7 +11,7 @@ A program that sells data, airtime and other utilities
 The project description can be found in the [Google Slide](https://docs.google.com/presentation/d/13el4aGrPlSz3ZQSrorhjqwrYgdbxNeNZGrh7UlPmjPU/edit#slide=id.ge965474a9_3_50) Link
 
 ## Preview
-         images/JUMIC-LOGO.jpeg 
+        <img class="town-preview" src="JUMIC-LOGO.jpeg" width="800">
      
 # Website
 [JUMIC TELECOMS]()
