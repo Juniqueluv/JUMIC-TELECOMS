@@ -1,0 +1,228 @@
+.main-heading {
+  font-size: 30px;
+  color: #205D76;
+  text-align: center;
+}
+
+.town-preview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.building {
+  width: 200px;
+}
+
+.category-heading {
+  color: #205D76;
+  font-size: 30px;
+}
+
+.store-list {
+  color: #FFC122;
+  padding-left: 15px;
+}
+
+.store-link {
+  color: #EA6E2F;
+  font-size: 20px;
+}
+
+.store-details {
+  margin-left: 30px;
+}
+
+.store-section {
+  display: flex;
+  display: -webkit-flex; /* This is a vendor prefix! */
+  margin: 50px auto;
+  width: 450px;
+}
+
+.store-name {
+  margin-bottom: 10px;
+}
+
+.primary-footer {
+  text-align: center;
+  padding: 2px;
+  background-color: #FFC122;
+}
+
+.created-by {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+
+
+body {
+  background-color: #FAF8DA;
+  font-family: 'Open Sans';
+  margin: 0;
+}
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #fa7e1e;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+
+.follow-us {
+text-align: right;
+}
+
+.primary-header {
+  background-color: blue;
+  display: flex;
+}
+
+.intro {
+  color: #017bf5;
+  font-size: 14px;
+  text-align: center;
+  font-family: Lato;
+
+}
+
+* {box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;}
+    
+    table { 
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+
+    }
+
+    th, td {
+        text-align: left;
+        padding: 16px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+
+    }
+    .purchase-button {
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        border-radius: 3px;
+        border-color: blue;
+        cursor: pointer;
+        margin:auto;
+        
+    }
+
+    .purchase-button:hover {
+        opacity: 0.5s;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
