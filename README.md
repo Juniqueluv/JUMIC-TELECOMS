@@ -13,7 +13,7 @@ The project description can be found in the [Google Slide](https://docs.google.c
 ## Preview
 <div style="display:flex">
      <div style="flex:1;padding-left:10px;">
-          <img src="JUMIC-LOGO.jpeg" width="800"/>
+          <img src="JUMIC-LOGO.jpeg">
      </div>
 </div>
 
